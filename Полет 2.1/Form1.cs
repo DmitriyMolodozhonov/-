@@ -67,7 +67,7 @@ namespace Полет_2._1
                 plane1 = new Bitmap(Полет_2._1.Properties.Resources.plane1); // самолет2
                 plane0 = new Bitmap(Полет_2._1.Properties.Resources.plane0); // вверх с
 
-                this.BackgroundImage = new Bitmap("sky.bmp");
+                this.BackgroundImage = new Bitmap(Полет_2._1.Properties.Resources.sky);
 
 
             }
@@ -169,7 +169,7 @@ namespace Полет_2._1
             else
             {
                 Rectangle reg = new Rectangle(0, 0, sky.Width - 0, sky.Height - 0);
-                //  g.DrawRectangle(Pens.Black, reg.X, reg.Y, reg.Width - 1, reg.Height - 1);
+                // g.DrawRectangle(Pens.Black, reg.X, reg.Y, reg.Width - 1, reg.Height - 1);
 
                 this.Invalidate(reg); // обновить область
             }
