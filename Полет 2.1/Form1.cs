@@ -59,13 +59,13 @@ namespace Полет_2._1
             try
             {
 
-                sky = new Bitmap("sky.bmp");     // небо
-                bum = new Bitmap("bum.bmp");     // авария
-                skynight = new Bitmap("night.bmp");     // ночь
-                plane = new Bitmap("plane.bmp"); // самолет
-                gold = new Bitmap("gold.bmp");// монета
-                plane1 = new Bitmap("plane1.bmp"); // самолет 2
-                plane0 = new Bitmap("plane0.bmp");// самолет вверх
+                sky = new Bitmap(Полет_2._1.Properties.Resources.sky); // небо
+                bum = new Bitmap(Полет_2._1.Properties.Resources.bum); // авария
+                skynight = new Bitmap(Полет_2._1.Properties.Resources.night); // ночь
+                plane = new Bitmap(Полет_2._1.Properties.Resources.plane); // самолет
+                gold = new Bitmap(Полет_2._1.Properties.Resources.gold); // монета
+                plane1 = new Bitmap(Полет_2._1.Properties.Resources.plane1); // самолет2
+                plane0 = new Bitmap(Полет_2._1.Properties.Resources.plane0); // вверх с
 
                 this.BackgroundImage = new Bitmap("sky.bmp");
 
